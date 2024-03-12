@@ -35,13 +35,16 @@ public class Dragon extends Monster {
     @Override
     public void takeDamage(int damage) {
         setHealth(getHealth() - damage);
+        if (getHealth() <= 0) {
+            die();
+        }
     }
 
     @Override
     public void die() {
-        if (getHealth() <= 0) {
-            System.out.println(getName() + " the " + getRole() + " was killed");
-        }
+
+        System.out.println(getName() + " the " + getRole() + " was killed");
+
     }
 }
 
