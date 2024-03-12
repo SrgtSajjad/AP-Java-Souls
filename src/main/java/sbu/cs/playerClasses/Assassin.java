@@ -8,11 +8,10 @@ public class Assassin extends Player {
     boolean isInvisible;
     int criticalMultiplier;
 
-    public Assassin(String name, String role, int health, int attackPower, boolean isInvisible, int criticalMultiplier) {
+    public Assassin(String name, String role, int health, int attackPower) {
         super(name, "Assassin", 1000, 50);
-
-        this.isInvisible = false;
-        this.criticalMultiplier = 4;
+        isInvisible = false;
+        criticalMultiplier = 4;
     }
 
     @Override
