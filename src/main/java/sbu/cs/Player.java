@@ -1,12 +1,11 @@
 package sbu.cs;
 
-public abstract class Player implements GameObject
-{
+public abstract class Player implements GameObject {
     private String name;
     private String role;
-
     private int health;
     private int attackPower;
+
     public Player(String name, String role, int health, int attackPower) {
         this.name = name;
         this.role = role;
