@@ -12,7 +12,7 @@ public class Wizard extends Player {
     int damageSpellPower;
     int damageSpellCost;
 
-    public Wizard(String name, String role, int health, int attackPower) {
+    public Wizard(String name) {
         super(name, "Wizard", 600, 30);
         damageSpellPower = 50;
         healSpellPower = 100;

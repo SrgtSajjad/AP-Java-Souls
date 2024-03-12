@@ -8,7 +8,7 @@ public class Knight extends Player {
 
     int armor;
 
-    public Knight(String name, String role, int health, int attackPower) {
+    public Knight(String name) {
         super(name, "Knight", 1000, 100);
         armor = 5;
     }
