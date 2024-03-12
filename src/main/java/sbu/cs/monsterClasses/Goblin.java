@@ -8,7 +8,7 @@ import sbu.cs.Monster;
 public class Goblin extends Monster {
 
 
-    public Goblin(String name, String role, int health, int attackPower, boolean isAlive) {
+    public Goblin(String name) {
         super(name, "Goblin", 500, 40, true);
 
     }
